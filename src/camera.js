@@ -16,8 +16,8 @@ class Camera {
     this.name = name;
     this._stream = null;
   }
-  
-  
+
+
   async start() {
     let constraints;
     var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
